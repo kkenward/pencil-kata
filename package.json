@@ -1,0 +1,34 @@
+{
+  "name": "pencil-kata",
+  "version": "1.0.0",
+  "description": "My JavaScript implementation of the Pencil Durability Kata to practice TDD",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "webpack --watch --progress --colors --config webpack-test.config.js",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkenward/pencil-kata.git"
+  },
+  "keywords": [],
+  "author": "Karen Kenward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkenward/pencil-kata/issues"
+  },
+  "homepage": "https://github.com/kkenward/pencil-kata#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}
